@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="banner.png" width="100%" alt="Adnan Jameel | GoHighLevel Audit Framework">
+<img src="banner.png" width="100%" alt="Adnan Jameel - GoHighLevel Audit Framework">
 
 <br><br>
 
@@ -23,17 +23,19 @@ A comprehensive technical inspection framework for identifying system failures, 
 
 <br><br>
 
-[**EXPLORE PORTFOLIO**](https://adnanjameelautomation.netlify.app/)
+<a href="https://adnanjameelautomation.netlify.app/">PORTFOLIO</a>
 &nbsp; ◆ &nbsp;
-[**LINKEDIN**](https://www.linkedin.com/in/adnanjameel091)
+<a href="https://www.linkedin.com/in/adnanjameel091">LINKEDIN</a>
 &nbsp; ◆ &nbsp;
-[**UPWORK**](https://www.upwork.com/freelancers/~01b36b5436c42666b9)
+<a href="https://www.upwork.com/freelancers/~01b36b5436c42666b9">UPWORK</a>
 
-<br>
+<br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=8B0000&height=2&section=header" width="100%" />
 
 </div>
+
+---
 
 ## ◈ 00 — PROJECT OVERVIEW
 
@@ -65,7 +67,7 @@ This framework provides a structured way to inspect, document, and prioritize te
 
 </div>
 
-### System Coverage
+### SYSTEM COVERAGE
 
 | MODULE | SYSTEM | INSPECTION OBJECTIVE |
 |:---:|---|---|
@@ -83,17 +85,17 @@ This framework provides a structured way to inspect, document, and prioritize te
 
 ## ◈ 02 — SYSTEM ARCHITECTURE
 
-### The customer journey
+### THE CUSTOMER JOURNEY
 
 Every stage must work correctly before the next stage can deliver its full value.
 
 ```mermaid
 flowchart TD
-    A["01 / LEAD CAPTURE"] --> B["02 / CRM ENTRY"]
-    B --> C["03 / AUTOMATED FOLLOW-UP"]
-    C --> D["04 / APPOINTMENT BOOKING"]
-    D --> E["05 / PAYMENT PROCESSING"]
-    E --> F["06 / REPORTING & ANALYTICS"]
+    A["01 - LEAD CAPTURE"] --> B["02 - CRM ENTRY"]
+    B --> C["03 - AUTOMATED FOLLOW-UP"]
+    C --> D["04 - APPOINTMENT BOOKING"]
+    D --> E["05 - PAYMENT PROCESSING"]
+    E --> F["06 - REPORTING & ANALYTICS"]
 
     style A fill:#991B1B,color:#fff,stroke:#DC2626
     style B fill:#18181B,color:#fff,stroke:#52525B
@@ -110,7 +112,7 @@ flowchart TD
 
 ## ◈ 03 — TECHNICAL INSPECTION
 
-**51 inspection points across 9 operational modules.**
+**51 INSPECTION POINTS ACROSS 9 OPERATIONAL MODULES.**
 
 Use the expandable sections to inspect each system independently.
 
@@ -270,21 +272,21 @@ Classify every finding before implementing a fix.
 | P2 | 🟡 Medium | Schedule optimization |
 | P3 | 🟢 Low | Routine maintenance |
 
-### Recommended resolution workflow
+### RECOMMENDED RESOLUTION WORKFLOW
 
 ```mermaid
-flowchart LR
-    A["DETECT"] --> B["DOCUMENT"]
-    B --> C["ANALYZE"]
-    C --> D["FIX"]
-    D --> E["RETEST"]
-    E --> F["REPORT"]
+flowchart TD
+    A["01 - DETECT ISSUE"] --> B["02 - DOCUMENT FINDINGS"]
+    B --> C["03 - ANALYZE ROOT CAUSE"]
+    C --> D["04 - IMPLEMENT FIX"]
+    D --> E["05 - RETEST SYSTEM"]
+    E --> F["06 - FINAL REPORT"]
 
-    style A fill:#18181B,color:#fff,stroke:#52525B
-    style B fill:#18181B,color:#fff,stroke:#52525B
-    style C fill:#18181B,color:#fff,stroke:#52525B
+    style A fill:#27272A,color:#fff,stroke:#71717A
+    style B fill:#27272A,color:#fff,stroke:#71717A
+    style C fill:#27272A,color:#fff,stroke:#71717A
     style D fill:#991B1B,color:#fff,stroke:#DC2626
-    style E fill:#18181B,color:#fff,stroke:#52525B
+    style E fill:#27272A,color:#fff,stroke:#71717A
     style F fill:#14532D,color:#fff,stroke:#22C55E
 ```
 
@@ -304,11 +306,13 @@ Use this structure to document technical findings.
 | Corrective Action | Required solution |
 | Verification | Retest and validation result |
 
-### Final assessment
+### FINAL ASSESSMENT
 
-- 🟢 **HEALTHY:** Most checks pass. Maintain and monitor.
-- 🟡 **NEEDS OPTIMIZATION:** Multiple failures require targeted repairs.
-- 🔴 **CRITICAL:** Widespread failures require a comprehensive repair strategy.
+| STATUS | CONDITION | ACTION |
+|:---:|---|---|
+| 🟢 HEALTHY | Most checks pass | Maintain and monitor |
+| 🟡 WARNING | Multiple failures | Targeted optimization |
+| 🔴 CRITICAL | Widespread failures | Comprehensive repair |
 
 ---
 
@@ -328,7 +332,7 @@ A structured implementation process:
 
 ## ◈ 07 — RELATED PROJECTS
 
-**Explore more of my GoHighLevel automation work.**
+**EXPLORE MORE OF MY GOHIGHLEVEL AUTOMATION WORK.**
 
 [GHl AUTOMATION EXAMPLES →](https://github.com/adnanjameel-ghl/ghl-automation-examples)
 
